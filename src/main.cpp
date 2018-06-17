@@ -7,7 +7,6 @@ void setup()
     pinMode(13, OUTPUT);
 }
 
-
 void loop()
 {
     digitalWrite(13, HIGH);
@@ -16,3 +15,5 @@ void loop()
     delay(400);
     Serial.println(millis());
 }
+
+// added a comment
